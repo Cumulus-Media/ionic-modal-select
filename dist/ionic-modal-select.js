@@ -130,7 +130,6 @@
 					scope.isChecked = {};
 				}
 				var multipleNullValue = iAttrs.multipleNullValue ? scope.$eval(iAttrs.multipleNullValue) : [];
-				console.log(iAttrs.okButton);
 	
 				scope.ui = {
 					modalTitle: iAttrs.modalTitle || 'Select an option',
